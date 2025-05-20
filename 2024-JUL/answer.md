@@ -65,10 +65,8 @@ iii) 126.255.255.255
 b)
 
 - Compared to dynamic IP address, static IP address is more reliable for devices that require consistent access so they can be easily reached, such as servers and network intermediary devices. On the other hand, dynamic IP address is more cost-effective and flexible for devices that do not require consistent access, such as personal computers.
-
-- In IPv4, dynamic IP address is assigned by DHCP server, while static IP address is manually configured on the device.
-
-- In IPv6, dynamic IP address is assigned by SLAAC or DHCPv6 server, while static IP address is manually configured on the device.
+- IPv4: `192.168.10.1`
+- IPv6: `2000:2121:1212:4543::1`
 
 c) DHCP is a protocol used to dynamically assign IP addresses to devices on a network.
 
