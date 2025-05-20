@@ -157,7 +157,7 @@ a.
 
 - Socket Pair is the pair of source IP address with port number and destination IP address with port number.
 - Sockets enable one host to track individual communication for different processes.
-- Example: (192.168.10.11:80, 192.168.10.2:80)
+- Example of Socket: 192.168.10.11:80
 
 b.
 
