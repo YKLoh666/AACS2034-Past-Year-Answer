@@ -136,6 +136,7 @@ i) Simple Mail Transfer Protocol (SMTP)
 ii)
 
 - The Mail User Agent (MUA) composes and sends email to the local mail server.
+- If the mail server not active, the mail will be spooled to be sent at later time.
 - Mail Transfer Agent (MTA) inspects the email to verify the if the recipient in this mail server.
 - If not exists, the mail is transfer to the correct mail server which the recipient located at.
 
