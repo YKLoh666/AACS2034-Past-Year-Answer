@@ -107,18 +107,18 @@ ii)
 
 c)
 
-- Tunneling is a method of encapsulating an IPv6 packet within an IPv4 packet to transmit it over an IPv4 network.
+- Tunnelling is a method of encapsulating an IPv6 packet within an IPv4 packet to transmit it over an IPv4 network.
 - Translation is a method of using NAT64 to translate IPv6 packets to IPv4 packets and vice versa, allowing communication between IPv4 and IPv6 networks.
 - Dual stack is a method of running both IPv4 and IPv6 protocols on the same device, allowing it to communicate with both IPv4 and IPv6 networks simultaneously.
 
 ### Question 4
 
-a) DHCP in charge of assigning dynamic IP addresses to host addresses on a network. Those hosts will be able to access to the internet through the router. The hosts can use DNS to resolve domain names to IP addresses to communicate with web servers on the internet. With these 2 protocols, hosts are able to communicate with each other and access the internet.
+a) DHCP is in charge of assigning dynamic IP addresses to hosts on a network. Those hosts will be able to access the internet through the router. The hosts can use DNS to resolve domain names to IP addresses to communicate with web servers on the Internet. With these 2 protocols, hosts are able to communicate with each other and access the internet.
 
-b) No. Two devices should not have the same MAC address on the same network. MAC address should uniquely identify a device on the network so the frame can be delivered to the correct destination. If two devices have the same MAC address within a network, the network will not be able to determine which device should receive the frame, causing communication issues. However, it is possible for two devices to have the same MAC address on different networks, as MAC addresses are only meaningful within the local network.
+b) No. Two devices should not have the same MAC address on the same network. A MAC address should uniquely identify a device on the network so the frame can be delivered to the correct destination. If two devices have the same MAC address within a network, the network will not be able to determine which device should receive the frame, causing communication issues. However, two devices can have the same MAC address on different networks, as MAC addresses are only meaningful within the local network.
 
-c) I don't agree with this statement. This is because public networks doesn't requires authentication, making it vulnerable to malicious attacks such as data interception and unauthorized access, which makes it less safe than private networks. In addition, charging for network access can also contributes to the network traffic management and network maintenance, which can improve the overall network security.
+c) I don't agree with this statement. This is because public networks doesn't requires authentication, making it vulnerable to malicious attacks such as data interception and unauthorised access, which makes it less safe than private networks. In addition, charging for network access can also contribute to network traffic management and network maintenance, which can improve the overall network security.
 
 d) Application is important in networking because it provides interfaces to users and applications to communicate with the network. It also enforces standards to ensure interoperability between different applications and devices. For example, application layer protocols such as HTTP, FTP, and SMTP define how web pages, files, and emails are formatted and interpreted, which allows different devices to communicate with each other effectively.
 
-e) UDP does not establish a connection before sending data. The data are encapsulated with less overhead, which makes the datagram smaller and faster to transmit. After the datagram is sent, no acknowledgment is required from the receiver. This makes UDP suitable for applications that require low latency and can tolerate some data loss, such as video streaming and online gaming.
+e) When a user wants to watch a video stream, the application will open a port in the dynamic range to request the video data. After the server application received the request, it will transmit the video stream datagram to the same port which performed the request. UDP don't establish a communication session before communicating, hence the connection doesn't guarantee transmission reliability. If a datagram doesn't reach the client, it won't be retransmitted, which may cause the video stream to lag. In exchange, the reduced overhead can send the data much faster than connection-oriented protocol such as TCP.
