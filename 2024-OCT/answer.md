@@ -135,10 +135,9 @@ i) Simple Mail Transfer Protocol (SMTP)
 
 ii)
 
-- The client establishes TCP connection to the SMTP server on port 25.
-- The client attempts to send an email to the server using the SMTP protocol.
-- When server receives the email, it stores the email in the recipient's mailbox.
-- If the server is not available, the email is spooled and sent at a later time.
+- The Mail User Agent (MUA) composes and sends email to the local mail server.
+- Mail Transfer Agent (MTA) inspects the email to verify the if the recipient in this mail server.
+- If not exists, the mail is transfer to the correct mail server which the recipient located at.
 
 iii)
 
